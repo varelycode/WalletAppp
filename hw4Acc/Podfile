@@ -1,0 +1,6 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'hw4Acc' do
+  pod 'PhoneNumberKit', '~> 3.0'
+end

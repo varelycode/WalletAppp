@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paperplane.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="9Os-Z0-Tvo">
+                                <rect key="frame" x="137.66666666666666" y="356.66666666666669" width="100" height="99.666666666666686"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="CvR-Og-kjm"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="ENo-c7-l25"/>
+                                    <constraint firstAttribute="width" constant="100" id="izK-QQ-oxZ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="kTr-gD-6xP"/>
+                                    <constraint firstAttribute="height" constant="100" id="yI5-cf-8P2"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SKY WALLET" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="opJ-0e-icc">
+                                <rect key="frame" x="90" y="466" width="195" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="NEt-8W-VcW"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="195" id="YNx-bT-Sfh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="29"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="opJ-0e-icc" firstAttribute="top" secondItem="9Os-Z0-Tvo" secondAttribute="bottom" constant="10" id="Qve-HD-IzB"/>
+                            <constraint firstItem="9Os-Z0-Tvo" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cNP-GU-puq"/>
+                            <constraint firstItem="opJ-0e-icc" firstAttribute="top" secondItem="9Os-Z0-Tvo" secondAttribute="bottom" constant="10" id="vGB-0K-frg"/>
+                            <constraint firstItem="opJ-0e-icc" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="wfe-44-Pxk"/>
+                            <constraint firstItem="9Os-Z0-Tvo" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="yFG-gc-Pbg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.6305418719212"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="paperplane.fill" catalog="system" width="64" height="60"/>
+    </resources>
+</document>

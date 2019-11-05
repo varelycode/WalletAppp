@@ -1,0 +1,6 @@
+framework module Pods_hw4Acc {
+  umbrella header "Pods-hw4Acc-umbrella.h"
+
+  export *
+  module * { export * }
+}

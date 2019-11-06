@@ -10,3 +10,5 @@ I made all the API calls in each respective view controller, however, dismissing
 
 Another difficulty in implementing was determining which method to use so the view controllers can communicate with each other. I did a simple technique for this. However, had I more time I would attempt to implement a model for lots of teh functionality that ended up in my view controller. 
 
+For the delete implementation, I implemented both slide to delete and delete in detail view. I did the former first because I was having difficulty updating my table at first with the custom functionality. However, I decided to keep it since it is an intuitive way for the user to delete and it works as expected. Both work the same. 
+

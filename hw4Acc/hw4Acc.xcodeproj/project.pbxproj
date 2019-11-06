@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		404528102370EA64009ED797 /* phoneInputView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404528092370EA63009ED797 /* phoneInputView.storyboard */; };
 		404528112370EA64009ED797 /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045280A2370EA63009ED797 /* welcomeViewController.swift */; };
 		404528122370EA64009ED797 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045280B2370EA63009ED797 /* MainNavigationController.swift */; };
 		404528132370EA64009ED797 /* walletClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045280C2370EA63009ED797 /* walletClass.swift */; };
@@ -23,11 +22,13 @@
 		40B10E0B2370E89F00B63870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B10E092370E89F00B63870 /* Main.storyboard */; };
 		40B10E0D2370E8A000B63870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B10E0C2370E8A000B63870 /* Assets.xcassets */; };
 		40B10E102370E8A000B63870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B10E0E2370E8A000B63870 /* LaunchScreen.storyboard */; };
+		40FFE7002371756B00638360 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FFE6FF2371756B00638360 /* detailViewController.swift */; };
+		40FFE70223725F9F00638360 /* popupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FFE70123725F9F00638360 /* popupViewController.swift */; };
+		40FFE70823727C7C00638360 /* addAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FFE70723727C7C00638360 /* addAccountViewController.swift */; };
 		ECBAF6FA026F1CE33643CA52 /* Pods_hw4Acc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D8B5E91A41513848BEA4FF /* Pods_hw4Acc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		404528092370EA63009ED797 /* phoneInputView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = phoneInputView.storyboard; sourceTree = "<group>"; };
 		4045280A2370EA63009ED797 /* welcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
 		4045280B2370EA63009ED797 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		4045280C2370EA63009ED797 /* walletClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = walletClass.swift; sourceTree = "<group>"; };
@@ -45,6 +46,9 @@
 		40B10E0C2370E8A000B63870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40B10E0F2370E8A000B63870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40B10E112370E8A000B63870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40FFE6FF2371756B00638360 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		40FFE70123725F9F00638360 /* popupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popupViewController.swift; sourceTree = "<group>"; };
+		40FFE70723727C7C00638360 /* addAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addAccountViewController.swift; sourceTree = "<group>"; };
 		964D53C8B88376CEDCAEFEF4 /* Pods-hw4Acc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hw4Acc.debug.xcconfig"; path = "Target Support Files/Pods-hw4Acc/Pods-hw4Acc.debug.xcconfig"; sourceTree = "<group>"; };
 		CBED5E379FDD5DF625E86BAE /* Pods-hw4Acc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hw4Acc.release.xcconfig"; path = "Target Support Files/Pods-hw4Acc/Pods-hw4Acc.release.xcconfig"; sourceTree = "<group>"; };
 		F1D8B5E91A41513848BEA4FF /* Pods_hw4Acc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hw4Acc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,12 +100,14 @@
 				4045281B2370EAF1009ED797 /* classes.swift */,
 				404528192370EAE0009ED797 /* Extensions.swift */,
 				4045280B2370EA63009ED797 /* MainNavigationController.swift */,
-				404528092370EA63009ED797 /* phoneInputView.storyboard */,
 				4045280D2370EA63009ED797 /* phoneNumber.swift */,
 				4045280F2370EA64009ED797 /* phoneViewController.swift */,
 				4045280E2370EA63009ED797 /* verifyViewController.swift */,
 				4045280C2370EA63009ED797 /* walletClass.swift */,
 				4045280A2370EA63009ED797 /* welcomeViewController.swift */,
+				40FFE70723727C7C00638360 /* addAccountViewController.swift */,
+				40FFE6FF2371756B00638360 /* detailViewController.swift */,
+				40FFE70123725F9F00638360 /* popupViewController.swift */,
 				40B10E032370E89F00B63870 /* AppDelegate.swift */,
 				40B10E052370E89F00B63870 /* SceneDelegate.swift */,
 				40B10E072370E89F00B63870 /* ViewController.swift */,
@@ -182,7 +188,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				40B10E102370E8A000B63870 /* LaunchScreen.storyboard in Resources */,
-				404528102370EA64009ED797 /* phoneInputView.storyboard in Resources */,
 				40B10E0D2370E8A000B63870 /* Assets.xcassets in Resources */,
 				40B10E0B2370E89F00B63870 /* Main.storyboard in Resources */,
 			);
@@ -244,11 +249,14 @@
 				404528152370EA64009ED797 /* verifyViewController.swift in Sources */,
 				4045281E2370EAF1009ED797 /* Api.swift in Sources */,
 				4045281D2370EAF1009ED797 /* classes.swift in Sources */,
+				40FFE7002371756B00638360 /* detailViewController.swift in Sources */,
 				404528112370EA64009ED797 /* welcomeViewController.swift in Sources */,
+				40FFE70823727C7C00638360 /* addAccountViewController.swift in Sources */,
 				404528162370EA64009ED797 /* phoneViewController.swift in Sources */,
 				40B10E062370E89F00B63870 /* SceneDelegate.swift in Sources */,
 				4045281A2370EAE0009ED797 /* Extensions.swift in Sources */,
 				404528142370EA64009ED797 /* phoneNumber.swift in Sources */,
+				40FFE70223725F9F00638360 /* popupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
